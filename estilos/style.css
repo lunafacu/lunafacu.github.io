@@ -1,0 +1,165 @@
+/* Importar fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif; /* Usar la fuente importada */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; /* Color de fondo general */
+}
+
+h1, h2 {
+    font-weight: 700; /* Usar negrita para los encabezados */
+}
+
+/* Estilos para el Header */
+header {
+    background-color: #4CAF50; /* Color de fondo del header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para el Footer */
+footer {
+    background-color: #333; /* Fondo oscuro para el footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    /*position: absolute;*/
+    bottom: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333; /* Fondo oscuro para el nav */
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar los elementos */
+}
+
+nav ul li {
+    padding: 14px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Color de fondo al pasar el mouse */
+    color: black;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Fondo con degradado en una sección */
+#section1 {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Degradado de color */
+    color: white;
+}
+
+/* Fondo con imagen en una sección */
+#section2 {
+    background: url('https://via.placeholder.com/1500') no-repeat center center/cover; /* Imagen de fondo */
+    color: white;
+    padding: 100px 20px; /* Ajusta el padding para mejor visibilidad */
+}
+
+#contacto {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+#contacto h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto{
+    padding: 50px;
+}
+
+.vinculo-black{
+    text-decoration:none;
+    color:black
+}
+.vinculo-white{
+    text-decoration:none;
+    color:white;
+}
+.contactos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.map{
+    width: 30vw;
+    height: 40vh;
+}
+.lista{
+    position: relative;
+}
+li{
+    list-style:none;
+    padding-top: 10%;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header class="ancho">
+        <h1>Bienvenido a Mi Proyecto</h1>
+        <p>Este es un proyecto de ejemplo para la pre entrega.</p>
+    </header>
+    <!-- Navegación -->
+    <nav>
+        <ul>
+            <li><a href="pag1.html">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <!-- Sección 4 -->
+        <section id="contacto" class="ancho">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/mnnqvynl" method="POST" data-form="thank-you">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div>
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="_replyto" required>
+                </div>
+                
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+
+            <div id="thank-you">
+                <p>¡Gracias por tu mensaje! Nos pondremos en contacto contigo pronto.</p>
+            </div>
+        </section>
+
+
+    </main>
+    <!-- Pie de página -->
+    <footer>
+        <div class="contactos">
+            <ul class="lista">
+                <li><a class="vinculo-white" href="pag1.html">Inicio</a></li>
+                <li><a class="vinculo-white" href="contacto.html">Contacto</a></li>
+                <li>Sobre nosotros</li>
+                <li>Ayuda</li>
+            </ul>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016888186322!2d-58.384145323530866!3d-34.603734457500295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1731683164229!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p>&copy; 2024 Mi Proyecto. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
